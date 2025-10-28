@@ -16,6 +16,15 @@ favorite_cars = [
         "features": ["Autopilot", "Electric", "All-Wheel Drive"],
         "is_electric": False,
         "owner": None
+    },
+    {
+        "make": "Audi",
+        "model": "R8",
+        "year": 2023,
+        "price": 144195.00,
+        "features": ["All-Wheel Drive", "v10 Engine", "Convertible"],
+        "is_electric": False,
+        "owner": None
     }
 ]
 
