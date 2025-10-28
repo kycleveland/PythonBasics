@@ -50,7 +50,7 @@ for car in favorite_cars:
     try:   
         if car['price'] > 100000:
             print(f"{car['model']}" + " is over $100K")
-        else:
-            continue
     except TypeError as e:
+        print(f"{e}")
+    except KeyError as e:
         print(f"{e}")
